@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="488d1700-9030-4442-b570-64bd95206a2f" name="Changes" comment="updated mode ni">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/SDeviation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Stylebutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/favpng_book-download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/favpng_calculator-rechenhilfsmittel-android.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/favpng_learning-school-length-education-measurement.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/favpng_pencil-drawing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/favpng_protractor-compass-clip-art.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/learn.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/learn.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,20 +40,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/JOSHUASALCEDO/SUMO/STAT/FinalProject/src/main/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.31186754&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "F:/JOSHUASALCEDO/SUMO/STAT/FinalProject/src/main/resources",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.31186754",
+    "settings.editor.selected.configurable": "preferences.JavaFX"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\JOSHUASALCEDO\SUMO\STAT\FinalProject\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files\Java\javafx-sdk-19\GitHub\STATISTICSPROJECT\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.SDeviationTest">
@@ -274,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671038610099</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="updated mode ni">
+      <created>1671038924330</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1671038924330</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,6 +316,10 @@
     <MESSAGE value="updated mode" />
     <MESSAGE value="updated mode ni" />
     <option name="LAST_COMMIT_MESSAGE" value="updated mode ni" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FinalProject$StatestixApplication.ic" NAME="StatestixApplication Coverage Results" MODIFIED="1671020849239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

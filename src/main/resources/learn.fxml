@@ -1,10 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="dashboardPane" prefHeight="724.0" prefWidth="856.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xu.stat.statestix.controllers.LearnController">
+<AnchorPane fx:id="dashboardPane" prefHeight="724.0" prefWidth="856.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xu.stat.statestix.controllers.LearnController">
    <children>
-      <Label layoutX="192.0" layoutY="140.0" text="learn" />
+      <Label layoutX="89.0" layoutY="213.0" text="MEDIAN">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="32.0" />
+         </font></Label>
+      <Text layoutX="374.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MEAN">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="32.0" />
+         </font>
+      </Text>
+      <Text layoutX="387.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MODE">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="32.0" />
+         </font>
+      </Text>
+      <Text layoutX="663.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RANGE">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="32.0" />
+         </font>
+      </Text>
+      <Text layoutX="128.0" layoutY="452.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PERMUTATION">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="32.0" />
+         </font>
+      </Text>
+      <Text layoutX="553.0" layoutY="451.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SDEVIATION">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="32.0" />
+         </font>
+      </Text>
+      <Button id="sale" layoutX="172.0" layoutY="471.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="154.0" style="-fx-font-style: italic; -fx-font-size: 22;" stylesheets="@Stylebutton.css" text="Learn">
+         <font>
+            <Font name="System Italic" size="22.0" />
+         </font>
+      </Button>
+      <ImageView accessibleRole="BUTTON" fitHeight="207.0" fitWidth="209.0" layoutX="553.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@favpng_pencil-drawing.png" />
+         </image>
+      </ImageView>
+      <Text fill="#b57505" layoutX="639.0" layoutY="498.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Text>
+      <ImageView accessibleRole="BUTTON" fitHeight="150.0" fitWidth="200.0" layoutX="323.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@favpng_learning-school-length-education-measurement.png" />
+         </image>
+      </ImageView>
+      <Text fill="#7c680e" layoutX="394.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Text>
+      <ImageView accessibleRole="BUTTON" fitHeight="136.0" fitWidth="186.0" layoutX="629.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@favpng_protractor-compass-clip-art.png" />
+         </image>
+      </ImageView>
+      <Text fill="#e80000" layoutX="697.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <ImageView accessibleRole="BUTTON" fitHeight="117.0" fitWidth="230.0" layoutX="319.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@favpng_book-download.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="399.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Text>
+      <ImageView accessibleRole="BUTTON" fitHeight="163.0" fitWidth="187.0" layoutX="83.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@favpng_calculator-rechenhilfsmittel-android.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="128.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>
