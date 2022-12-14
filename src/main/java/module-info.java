@@ -10,6 +10,7 @@ module xu.stat.finalproject {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires jbcrypt;
 
     opens xu.stat.statestix to javafx.fxml;
     exports xu.stat.statestix;
