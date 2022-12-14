@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="488d1700-9030-4442-b570-64bd95206a2f" name="Changes" comment="ADDED USER CLASS">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/database/UserDB.java" afterDir="false" />
+    <list default="true" id="488d1700-9030-4442-b570-64bd95206a2f" name="Changes" comment="added DATABASE CLASS">
+      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/test/UserDbTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/statestixdb.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,29 +38,105 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "F:/commons-math3-3.6.1-bin.zip",
+    "last_opened_file_path": "F:/JOSHUASALCEDO/SUMO/STAT/FinalProject/src/main/resources",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.31186754"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="xu.stat.statestix.StatestixApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xu.stat.statestix.StatestixApplication" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\JOSHUASALCEDO\SUMO\STAT\FinalProject\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserDbTest.testRetrieveData">
+    <configuration name="UserDbTest.authenticationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="statestix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xu.stat.statestix.controllers.*" />
+          <option name="PATTERN" value="xu.stat.statestix.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="xu.stat.statestix.test" />
+      <option name="MAIN_CLASS_NAME" value="xu.stat.statestix.test.UserDbTest" />
+      <option name="METHOD_NAME" value="authenticationTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDbTest.doesItExistsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="statestix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xu.stat.statestix.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xu.stat.statestix.test" />
+      <option name="MAIN_CLASS_NAME" value="xu.stat.statestix.test.UserDbTest" />
+      <option name="METHOD_NAME" value="doesItExistsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDbTest.testRetrieveData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="statestix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xu.stat.statestix.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xu.stat.statestix.test" />
+      <option name="MAIN_CLASS_NAME" value="xu.stat.statestix.test.UserDbTest" />
+      <option name="METHOD_NAME" value="testRetrieveData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDbTest.updateRatingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="statestix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xu.stat.statestix.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xu.stat.statestix.test" />
+      <option name="MAIN_CLASS_NAME" value="xu.stat.statestix.test.UserDbTest" />
+      <option name="METHOD_NAME" value="updateRatingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDbTest.updateUserDetailsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="statestix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xu.stat.statestix.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xu.stat.statestix.test" />
+      <option name="MAIN_CLASS_NAME" value="xu.stat.statestix.test.UserDbTest" />
+      <option name="METHOD_NAME" value="updateUserDetailsTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.xu.stat.statestix.StatestixApplication" />
+        <item itemvalue="JUnit.UserDbTest.testRetrieveData" />
+        <item itemvalue="JUnit.UserDbTest.authenticationTest" />
+        <item itemvalue="JUnit.UserDbTest.updateRatingTest" />
+        <item itemvalue="JUnit.UserDbTest.updateUserDetailsTest" />
+        <item itemvalue="JUnit.UserDbTest.doesItExistsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670993160270</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added DATABASE CLASS">
+      <created>1670993302964</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670993302964</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +210,7 @@
     <MESSAGE value="Added Encryption class" />
     <MESSAGE value="added String Validator Class" />
     <MESSAGE value="ADDED USER CLASS" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADDED USER CLASS" />
+    <MESSAGE value="added DATABASE CLASS" />
+    <option name="LAST_COMMIT_MESSAGE" value="added DATABASE CLASS" />
   </component>
 </project>

@@ -12,9 +12,11 @@ module xu.stat.finalproject {
     requires com.almasb.fxgl.all;
     requires jbcrypt;
     requires java.sql;
+    requires junit;
 
     opens xu.stat.statestix to javafx.fxml;
     exports xu.stat.statestix;
     exports xu.stat.statestix.controllers;
+    exports xu.stat.statestix.test to junit;
     opens xu.stat.statestix.controllers to javafx.fxml;
 }
