@@ -36,7 +36,7 @@ public class DashboardController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-
+        loadPage("/home.fxml");
     }
 
     public void initData(String ID) {
@@ -86,6 +86,13 @@ public class DashboardController implements Initializable {
 
     }
 
+    public BorderPane getBorderPane() {
+        return borderPane;
+    }
+
+    public void setBorderPane(BorderPane borderPane) {
+        this.borderPane = borderPane;
+    }
 
     @FXML
     void onMouseIn(MouseEvent event) {
