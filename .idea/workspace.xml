@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="488d1700-9030-4442-b570-64bd95206a2f" name="Changes" comment="updated mode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Median.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/probability/Coin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/probability/Dice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/probability/OBJECT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/probability/Probability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/test/MedianTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/probability/MeanMedianModeQuestions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/probability/ProbabilityQuestions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Mean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Mean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Mode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Mode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Statistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/probability/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/probability/Coin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/probability/Probability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/probability/Probability.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +46,8 @@
     "last_opened_file_path": "F:/JOSHUASALCEDO/SUMO/STAT/FinalProject/src/main/resources",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.31186754"
+    "project.structure.side.proportion": "0.31186754",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -230,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670995766330</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="updated mode">
+      <created>1671000330829</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671000330829</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -1,13 +1,14 @@
 package xu.stat.statestix.data;
 
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class Question {
     private String question;
-    private String[] choices;
+    private HashMap<Character, String> choices;
     private String answer;
 
-    public Question(String question, String[] choices, String answer) {
+    public Question(String question,  String answer, HashMap<Character, String> choices) {
         this.question = question;
         this.choices = choices;
         this.answer = answer;
@@ -15,6 +16,11 @@ public class Question {
 
     public Question(String question) {
         this.question = question;
+    }
+
+    public Question(String question, String answer) {
+        this.question = question;
+        this.answer = answer;
     }
 
     public String getQuestion() {
@@ -25,7 +31,7 @@ public class Question {
         this.question = question;
     }
 
-    public String[] getChoices() {
+    public HashMap<Character, String> getChoices() {
         return choices;
     }
 
@@ -45,7 +51,7 @@ public class Question {
     public String toString() {
         return "Question{" +
                 "question='" + question + '\'' +
-                ", choices=" + Arrays.toString(choices) +
+                ", choices=" + choices +
                 ", answer='" + answer + '\'' +
                 '}';
     }

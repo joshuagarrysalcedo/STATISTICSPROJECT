@@ -5,7 +5,7 @@ import xu.stat.statestix.util.MathUTIL;
 
 public class Mode extends Statistics{
     public double[] set;
-    public double mode[];
+    public int mode[];
     public Mode() {
         super();
         setSubject("Mode");

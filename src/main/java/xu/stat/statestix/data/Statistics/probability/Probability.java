@@ -5,6 +5,7 @@ import xu.stat.statestix.data.Statistics.Statistics;
 public abstract class Probability extends Statistics {
     private int numberOfObjects;
     private OBJECT object;
+    private int numberOfEvents;
     private int condition;
     private double probability;
 

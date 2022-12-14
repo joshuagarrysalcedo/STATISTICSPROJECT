@@ -36,4 +36,6 @@ public class Mean extends Statistics{
     public void setMean(double mean) {
         this.mean = mean;
     }
+
+
 }
