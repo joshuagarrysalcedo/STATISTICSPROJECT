@@ -13,6 +13,10 @@ public class Question {
         this.answer = answer;
     }
 
+    public Question(String question) {
+        this.question = question;
+    }
+
     public String getQuestion() {
         return question;
     }
@@ -25,8 +29,8 @@ public class Question {
         return choices;
     }
 
-    public void setChoices(String[] choices) {
-        this.choices = choices;
+    public void setChoices(double answer) {
+
     }
 
     public String getAnswer() {

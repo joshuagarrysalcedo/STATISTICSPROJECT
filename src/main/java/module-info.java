@@ -14,6 +14,7 @@ module xu.stat.finalproject {
     requires java.sql;
     requires junit;
     requires commons.math3;
+    requires org.testng;
     exports xu.stat.statestix;
     exports xu.stat.statestix.controllers;
     exports xu.stat.statestix.test to junit;

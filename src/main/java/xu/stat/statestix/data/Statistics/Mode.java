@@ -5,15 +5,18 @@ import xu.stat.statestix.util.MathUTIL;
 
 public class Mode extends Statistics{
     public double[] set;
-    public double mode;
+    public double mode[];
     public Mode() {
         super();
         setSubject("Mode");
         setDescription("The mode is the value that appears most frequently in a data set");
     }
 
-    public double findMode(double[] set){
-        StatUtils.mode(set);
-        return Double.parseDouble(MathUTIL.df.format(set));
+    public double[] findMode(double[] set){
+       double mode[] =  StatUtils.mode(set);
+       for(double m : mode){
+           m = Double.parseDouble(MathUTIL.df.format(set));
+       }
+        return mode;
     }
 }

@@ -6,6 +6,7 @@ public abstract class Statistics {
     private String subject;
     private String description;
 
+    private Question[] questions;
     public Statistics() {
     }
 
