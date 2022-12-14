@@ -1,5 +1,7 @@
 package xu.stat.statestix.controllers;
 
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -85,6 +87,23 @@ public class PlayController {
         timeCB.setItems(time);
         quantityCB.setItems(quantity);
 
+        modeCB.valueProperty().addListener(new ChangeListener<String>() {
+            @Override
+            public void changed(ObservableValue<? extends String> observableValue, String s, String t1) {
+                if(modeCB.getValue() == "Timed") {
+                    timeCB.setDisable(false);
+                    quantityCB.setDisable(true);
+                }
+                if(modeCB.getValue() == "Unlimited") {
+                    timeCB.setDisable(true);
+                    quantityCB.setDisable(true);
+                }
+                if(modeCB.getValue() == "Classic") {
+                    timeCB.setDisable(true);
+                    quantityCB.setDisable(false);
+                }
+            }
+        });
 
     }
 
