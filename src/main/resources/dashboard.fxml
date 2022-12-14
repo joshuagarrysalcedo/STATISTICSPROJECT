@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -10,7 +11,7 @@
 
 <BorderPane id="borderpane" fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xu.stat.statestix.controllers.DashboardController">
    <left>
-      <VBox prefHeight="745.0" prefWidth="185.0" BorderPane.alignment="CENTER">
+      <VBox prefHeight="767.0" prefWidth="185.0" BorderPane.alignment="CENTER">
          <children>
             <HBox id="home" fx:id="homeHB" onMouseClicked="#onHomeClick" onMouseEntered="#onMouseIn" onMouseExited="#onMouseOut" prefHeight="100.0" prefWidth="200.0">
                <children>
@@ -76,7 +77,10 @@
       </VBox>
    </left>
    <top>
-      <HBox prefHeight="19.0" prefWidth="1000.0" BorderPane.alignment="CENTER" />
+      <HBox prefHeight="22.0" prefWidth="927.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets left="187.0" right="186.0" />
+         </BorderPane.margin></HBox>
    </top>
    <bottom>
       <HBox prefHeight="36.0" prefWidth="1100.0" style="-fx-background-color: #1FDF64;" BorderPane.alignment="CENTER" />
@@ -88,6 +92,6 @@
          </children></AnchorPane>
    </center>
    <right>
-      <VBox prefHeight="745.0" prefWidth="186.0" style="-fx-background-color: #8AB9A5;" BorderPane.alignment="CENTER" />
+      <VBox prefHeight="768.0" prefWidth="186.0" style="-fx-background-color: #8AB9A5;" BorderPane.alignment="CENTER" />
    </right>
 </BorderPane>

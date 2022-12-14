@@ -9,12 +9,18 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.*;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.ComboBox;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
+import javafx.stage.Stage;
 
+import java.io.IOException;
 import java.util.EventListener;
 
 public class PlayController {
@@ -64,8 +70,19 @@ public class PlayController {
     }
 
     @FXML
-    void onStartButtonClicked(MouseEvent event) {
+    void onStartButtonClicked(MouseEvent event) throws IOException {
         System.out.println("startButton Clicked");
+
+        System.out.println("Button clicked!");
+        FXMLLoader loader = new FXMLLoader();
+        loader.setLocation(getClass().getResource("/quiz.fxml"));
+        Parent menuParent = loader.load();
+        Scene scene = new Scene(menuParent);
+        QuizController controller = loader.getController();
+        controller.initData("1234");
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setScene(scene);
+        window.show();
     }
 
     @FXML

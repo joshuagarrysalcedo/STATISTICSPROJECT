@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="xu.stat.statestix.controllers.QuizController"
-            prefHeight="400.0" prefWidth="600.0">
-
-</AnchorPane>
+<BorderPane fx:id="boardPaneQuiz" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xu.stat.statestix.controllers.QuizController">
+   <right>
+      <VBox prefHeight="800.0" prefWidth="340.0" style="-fx-border-color: #1B2838;" BorderPane.alignment="CENTER" />
+   </right>
+   <bottom>
+      <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #1B2838;" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onMouseClicked="#onButtonClick" text="Button" />
+         </children></HBox>
+   </bottom>
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-border-color: #1B2838;" BorderPane.alignment="CENTER" />
+   </left>
+   <top>
+      <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #1B2838;" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>
