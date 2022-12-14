@@ -1,13 +1,21 @@
 package xu.stat.statestix.controllers;
 
+import javafx.beans.binding.Bindings;
+import javafx.beans.property.BooleanProperty;
+import javafx.beans.property.SimpleBooleanProperty;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.*;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.ComboBox;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
+
+import java.util.EventListener;
 
 public class PlayController {
 
@@ -57,7 +65,7 @@ public class PlayController {
 
     @FXML
     void onStartButtonClicked(MouseEvent event) {
-
+        System.out.println("startButton Clicked");
     }
 
     @FXML
@@ -85,7 +93,31 @@ public class PlayController {
         timeCB.setItems(time);
         quantityCB.setItems(quantity);
 
+        modeCB.valueProperty().addListener(new ChangeListener<String>() {
+            @Override
+            public void changed(ObservableValue<? extends String> observableValue, String s, String t1) {
+                if(modeCB.getValue() == "Timed") {
+                    timeCB.setDisable(false);
+                    quantityCB.setDisable(true);
+                }
+                if(modeCB.getValue() == "Unlimited") {
+                    timeCB.setDisable(true);
+                    quantityCB.setDisable(true);
+                }
+                if(modeCB.getValue() == "Classic") {
+                    timeCB.setDisable(true);
+                    quantityCB.setDisable(false);
+                }
+            }
+        });
+        ObservableList<CheckBox> checkBoxes = FXCollections.observableArrayList();
+        checkBoxes.addAll(meanChk, medfianCk, modeCh, probChk, sdChk, rangeChk, varianceChk);
 
-    }
+        startBtn.disableProperty().bind(Bindings.not(meanChk.selectedProperty().or(modeCh.selectedProperty()).or(medfianCk.selectedProperty()
+                .or(probChk.selectedProperty().or(sdChk.selectedProperty().or(rangeChk.selectedProperty().or(varianceChk.selectedProperty())))))));
+
+        }
+
+
 
 }
