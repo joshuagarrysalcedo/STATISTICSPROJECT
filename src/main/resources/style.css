@@ -31,3 +31,12 @@
         -fx-background-position: center center;
         -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
 }
+
+
+#scoreBoardSpinner{
+    -fx-background-image: url("scorecard.png");
+    -fx-background-repeat: stretch;
+            -fx-background-size: cover;
+            -fx-background-position: center center;
+            -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
