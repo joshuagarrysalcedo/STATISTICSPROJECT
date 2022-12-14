@@ -12,7 +12,7 @@ public class Range extends Statistics {
     public Range() {
         super();
         setSubject("Range");
-        setDescription("A mean in maths is the average of a data set");
+        setDescription("The Range is the difference between the lowest and highest values.");
     }
 
 
