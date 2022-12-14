@@ -11,6 +11,7 @@ module xu.stat.finalproject {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
     requires jbcrypt;
+    requires java.sql;
 
     opens xu.stat.statestix to javafx.fxml;
     exports xu.stat.statestix;

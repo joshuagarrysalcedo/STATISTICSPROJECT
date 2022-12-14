@@ -1,5 +1,6 @@
 package xu.stat.statestix.data;
 
+import xu.stat.statestix.database.UserDB;
 import xu.stat.statestix.util.ENCRYPTION;
 
 import java.time.LocalDate;
@@ -85,7 +86,7 @@ public class User {
         //id format YEAR-MONTH-000n
         String year = Integer.toString(LocalDate.now().getYear());
         String month = Integer.toString(LocalDate.now().getMonthValue());
-        int users = DATA_BASE.countData("users") + 1;
+        int users = UserDB.countData("users") + 1;
 
 
         this.userID = String.format("%s-%s-%04d", year, month, users);
