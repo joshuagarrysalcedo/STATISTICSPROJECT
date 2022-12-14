@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="488d1700-9030-4442-b570-64bd95206a2f" name="Changes" comment="Added dependencies">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/util/ENCRYPTION.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+    <list default="true" id="488d1700-9030-4442-b570-64bd95206a2f" name="Changes" comment="Added Encryption class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/util/STRING_VALIDATOR.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670992833802</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Encryption class">
+      <created>1670992949128</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670992949128</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added dependencies" />
+    <MESSAGE value="Added Encryption class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Encryption class" />
   </component>
 </project>
