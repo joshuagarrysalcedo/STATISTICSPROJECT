@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xu.stat.statestix.controllers.DashboardController">
+   <left>
+      <VBox prefHeight="781.0" prefWidth="127.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox fx:id="homeHB" onMouseClicked="#onHomeClick" onMouseEntered="#onMouseIn" onMouseExited="#onMouseOut" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@loginico2.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="Home" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@loginico2.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="Play" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="110.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@loginico2.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="Rankings" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="210.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@loginico2.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="Learn" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="310.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@loginico2.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="Stats" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="410.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@loginico2.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="About" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </left>
+   <top>
+      <HBox prefHeight="19.0" prefWidth="1000.0" BorderPane.alignment="CENTER" />
+   </top>
+   <bottom>
+      <HBox prefHeight="77.0" prefWidth="1100.0" style="-fx-background-color: #1FDF64;" BorderPane.alignment="CENTER" />
+   </bottom>
+   <center>
+      <AnchorPane prefHeight="724.0" prefWidth="856.0" style="-fx-background-color: #171A21;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="304.0" layoutY="217.0" text="HOME" textFill="WHITE" />
+         </children></AnchorPane>
+   </center>
+   <right>
+      <VBox prefHeight="681.0" prefWidth="117.0" style="-fx-background-color: #8AB9A5;" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>

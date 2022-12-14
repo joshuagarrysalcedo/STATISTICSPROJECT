@@ -20,42 +20,42 @@ public class MeanMedianModeQuestions {
     private String medianQuestion = "What is the median of the set? ";
 
 
-    public Question generateQuestion() {
-        int flag = ran.nextInt(4)+1;
+//    public Question generateQuestion() {
+//        int flag = ran.nextInt(4)+1;
+//
+//        switch(flag) {
+//            case 1:
+//                break;
+//            case 2:
+//                break;
+//            case 3:
+//                break;
+//            case 4:
+//                break;
+//        }
+//    }
 
-        switch(flag) {
-            case 1:
-                break;
-            case 2:
-                break;
-            case 3:
-                break;
-            case 4:
-                break;
-        }
-    }
-
-    private Question generateModeQuestion() {
-        Mode mode = new Mode()
-        int n = ran.nextInt(6)+ 5;
-        double[]set = new double[n];
-        for(int i = 0; i < n; i++) {
-            set[i] = ran.nextInt(20) + 1;
-        }
-        double[] modes = mode.findMode(set);
-        String question = String.format("Identify the mode for the following set?\n%s", Arrays.toString(set) );
-        String answer = Arrays.toString(modes);
-
-    }
-
-    public HashMap<Character, String> generateChoices(double ...a){
-        double arr[] = new double[a.length]; // incase a is more than 1
-        if(a.length > 1) {
-            double wrongAnswers[] = new double[a.length];
-            for(int i = 0; i < a.length; i++) {
-                wrongAnswers[i] += 1;
-            }
-        }
-    }
+//    private Question generateModeQuestion() {
+//        Mode mode = new Mode();
+//        int n = ran.nextInt(6)+ 5;
+//        double[]set = new double[n];
+//        for(int i = 0; i < n; i++) {
+//            set[i] = ran.nextInt(20) + 1;
+//        }
+//        double[] modes = mode.findMode(set);
+//        String question = String.format("Identify the mode for the following set?\n%s", Arrays.toString(set) );
+//        String answer = Arrays.toString(modes);
+//
+//    }
+//
+//    public HashMap<Character, String> generateChoices(double ...a){
+//        double arr[] = new double[a.length]; // incase a is more than 1
+//        if(a.length > 1) {
+//            double wrongAnswers[] = new double[a.length];
+//            for(int i = 0; i < a.length; i++) {
+//                wrongAnswers[i] += 1;
+//            }
+//        }
+//    }
 
 }
