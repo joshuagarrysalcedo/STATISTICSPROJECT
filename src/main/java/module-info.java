@@ -13,8 +13,7 @@ module xu.stat.finalproject {
     requires jbcrypt;
     requires java.sql;
     requires junit;
-
-    opens xu.stat.statestix to javafx.fxml;
+    requires commons.math3;
     exports xu.stat.statestix;
     exports xu.stat.statestix.controllers;
     exports xu.stat.statestix.test to junit;

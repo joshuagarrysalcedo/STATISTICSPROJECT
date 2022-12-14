@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="488d1700-9030-4442-b570-64bd95206a2f" name="Changes" comment="Added Question class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Statistics.java" afterDir="false" />
+    <list default="true" id="488d1700-9030-4442-b570-64bd95206a2f" name="Changes" comment="created statistics class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Mean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/util/MathUTIL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Statistics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670993882950</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="created statistics class">
+      <created>1670994185201</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670994185201</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,6 +236,7 @@
     <MESSAGE value="added DATABASE CLASS" />
     <MESSAGE value="tested db class" />
     <MESSAGE value="Added Question class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Question class" />
+    <MESSAGE value="created statistics class" />
+    <option name="LAST_COMMIT_MESSAGE" value="created statistics class" />
   </component>
 </project>

@@ -1,8 +1,13 @@
 package xu.stat.statestix.data.Statistics;
 
+import xu.stat.statestix.data.Question;
+
 public abstract class Statistics {
     private String subject;
     private String description;
+
+    public Statistics() {
+    }
 
     public Statistics(String subject, String description) {
         this.subject = subject;
