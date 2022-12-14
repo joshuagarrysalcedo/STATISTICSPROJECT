@@ -5,39 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="488d1700-9030-4442-b570-64bd95206a2f" name="Changes" comment="updated mode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/AboutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/DashboardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/LearnController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/PlayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/RankingsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/StatsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Background2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/MathsLogo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/about.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/answericon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backgroundmusic.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dashboard.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/emailico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/home.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/learn.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/loginico2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/passico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/play.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/quit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/rankings.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/rankingsico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/stats.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/studyico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/test/PermutationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/util/ControlUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/StatestixApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/StatestixApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/DashboardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/probability/MeanMedianModeQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/probability/MeanMedianModeQuestions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/xu/stat/statestix/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xu/stat/statestix/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/about.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/about.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/learn.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/learn.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/play.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/play.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/rankings.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/rankings.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/stats.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/stats.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +35,20 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+        <option value="adrian" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -123,7 +117,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDbTest.authenticationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PermutationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="statestix" />
       <extension name="coverage">
         <pattern>
@@ -132,9 +126,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="xu.stat.statestix.test" />
-      <option name="MAIN_CLASS_NAME" value="xu.stat.statestix.test.UserDbTest" />
-      <option name="METHOD_NAME" value="authenticationTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="xu.stat.statestix.test.PermutationTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,10 +151,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.StatestixApplication" />
+        <item itemvalue="JUnit.PermutationTest" />
         <item itemvalue="Application.sample" />
         <item itemvalue="JUnit.MedianTest" />
         <item itemvalue="JUnit.UserDbTest.testRetrieveData" />
-        <item itemvalue="JUnit.UserDbTest.authenticationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671019389319</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="updated mode">
+      <created>1671024614283</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1671024614283</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

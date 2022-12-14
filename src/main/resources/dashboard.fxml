@@ -8,11 +8,11 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xu.stat.statestix.controllers.DashboardController">
+<BorderPane id="borderpane" fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xu.stat.statestix.controllers.DashboardController">
    <left>
       <VBox prefHeight="781.0" prefWidth="127.0" BorderPane.alignment="CENTER">
          <children>
-            <HBox fx:id="homeHB" onMouseClicked="#onHomeClick" onMouseEntered="#onMouseIn" onMouseExited="#onMouseOut" prefHeight="100.0" prefWidth="200.0">
+            <HBox id="home" fx:id="homeHB" onMouseClicked="#onHomeClick" onMouseEntered="#onMouseIn" onMouseExited="#onMouseOut" prefHeight="100.0" prefWidth="200.0">
                <children>
                   <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -22,7 +22,7 @@
                   <Label text="Home" />
                </children>
             </HBox>
-            <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0">
+            <HBox id="play" fx:id="playHB" layoutX="10.0" layoutY="10.0" onMouseClicked="#onPlayClicked" onMouseEntered="#onMouseIn" onMouseExited="#onMouseOut" prefHeight="100.0" prefWidth="200.0">
                <children>
                   <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -32,7 +32,7 @@
                   <Label text="Play" />
                </children>
             </HBox>
-            <HBox layoutX="10.0" layoutY="110.0" prefHeight="100.0" prefWidth="200.0">
+            <HBox id="rankings" fx:id="homeHbox" layoutX="10.0" layoutY="110.0" onMouseClicked="#onRankingsClicked" onMouseEntered="#onMouseIn" onMouseExited="#onMouseOut" prefHeight="100.0" prefWidth="200.0">
                <children>
                   <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -42,7 +42,7 @@
                   <Label text="Rankings" />
                </children>
             </HBox>
-            <HBox layoutX="10.0" layoutY="210.0" prefHeight="100.0" prefWidth="200.0">
+            <HBox id="learn" fx:id="learnHB" layoutX="10.0" layoutY="210.0" onMouseClicked="#onLearnClicked" onMouseEntered="#onMouseIn" onMouseExited="#onMouseOut" prefHeight="100.0" prefWidth="200.0">
                <children>
                   <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -52,7 +52,7 @@
                   <Label text="Learn" />
                </children>
             </HBox>
-            <HBox layoutX="10.0" layoutY="310.0" prefHeight="100.0" prefWidth="200.0">
+            <HBox id="stats" fx:id="statsHB" layoutX="10.0" layoutY="310.0" onMouseClicked="#onStatsClicked" onMouseEntered="#onMouseIn" onMouseExited="#onMouseOut" prefHeight="100.0" prefWidth="200.0">
                <children>
                   <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -62,7 +62,7 @@
                   <Label text="Stats" />
                </children>
             </HBox>
-            <HBox layoutX="10.0" layoutY="410.0" prefHeight="100.0" prefWidth="200.0">
+            <HBox id="about" fx:id="aboutHbox" layoutX="10.0" layoutY="410.0" onMouseClicked="#onAboutClicked" onMouseEntered="#onMouseIn" onMouseExited="#onMouseOut" prefHeight="100.0" prefWidth="200.0">
                <children>
                   <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -79,7 +79,7 @@
       <HBox prefHeight="19.0" prefWidth="1000.0" BorderPane.alignment="CENTER" />
    </top>
    <bottom>
-      <HBox prefHeight="77.0" prefWidth="1100.0" style="-fx-background-color: #1FDF64;" BorderPane.alignment="CENTER" />
+      <HBox prefHeight="36.0" prefWidth="1100.0" style="-fx-background-color: #1FDF64;" BorderPane.alignment="CENTER" />
    </bottom>
    <center>
       <AnchorPane prefHeight="724.0" prefWidth="856.0" style="-fx-background-color: #171A21;" BorderPane.alignment="CENTER">

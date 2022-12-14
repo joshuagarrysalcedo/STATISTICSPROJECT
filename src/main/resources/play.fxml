@@ -3,8 +3,7 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="724.0" prefWidth="856.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xu.stat.statestix.controllers.PlayController">
+<AnchorPane fx:id="dashboardPane" prefHeight="724.0" prefWidth="856.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xu.stat.statestix.controllers.PlayController">
    <children>
       <Label layoutX="377.0" layoutY="239.0" text="pLAY" />
    </children>
