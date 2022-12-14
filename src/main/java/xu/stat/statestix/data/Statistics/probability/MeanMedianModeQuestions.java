@@ -50,9 +50,12 @@ public class MeanMedianModeQuestions {
 
     public HashMap<Character, String> generateChoices(double ...a){
         double arr[] = new double[a.length]; // incase a is more than 1
-
-
-
+        if(a.length > 1) {
+            double wrongAnswers[] = new double[a.length];
+            for(int i = 0; i < a.length; i++) {
+                wrongAnswers[i] += 1;
+            }
+        }
     }
 
 }
