@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="488d1700-9030-4442-b570-64bd95206a2f" name="Changes" comment="updated mode">
+    <list default="true" id="f92256f1-4485-4d4c-b8cb-90896a7de1c4" name="Changes" comment="updated mode">
+      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/QuizController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Range.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/SDeviation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/test/RangeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/test/SDeviationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/quiz.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/PlayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/PlayController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/play.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/play.fxml" afterDir="false" />

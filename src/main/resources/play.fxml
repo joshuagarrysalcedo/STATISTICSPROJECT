@@ -6,6 +6,9 @@
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
@@ -52,9 +55,16 @@
                   <ComboBox fx:id="modeCB" prefWidth="150.0" promptText="Select Mode" GridPane.halignment="CENTER" />
                   <ComboBox fx:id="timeCB" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="150.0" promptText="Time" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="SOMETIMES" />
                   <ComboBox fx:id="quantityCB" disable="true" prefWidth="150.0" promptText="quantity" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
-                  <Button fx:id="startBtn" mnemonicParsing="false" onMouseClicked="#onStartButtonClicked" onMouseEntered="#onMouseEnter" onMouseExited="#onMouseExit" prefHeight="30.0" prefWidth="130.0" style="-fx-background-radius: 50; -fx-background-color: #EDC6C0;" stylesheets="@style.css" text="Start" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                  <Button fx:id="startBtn" mnemonicParsing="false" onMouseClicked="#onStartButtonClicked" onMouseEntered="#onMouseEnter" onMouseExited="#onMouseExit" prefHeight="30.0" prefWidth="130.0" style="-fx-background-radius: 50; -fx-background-color: #D7897E;" stylesheets="@style.css" text="Start" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                      <effect>
-                        <Glow />
+                        <Lighting diffuseConstant="1.21">
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
                      </effect>
                   </Button>
                </children>
