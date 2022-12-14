@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="488d1700-9030-4442-b570-64bd95206a2f" name="Changes" comment="Added Encryption class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/util/STRING_VALIDATOR.java" afterDir="false" />
+    <list default="true" id="488d1700-9030-4442-b570-64bd95206a2f" name="Changes" comment="added String Validator Class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670992949128</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added String Validator Class">
+      <created>1670993034421</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670993034421</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +115,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added dependencies" />
     <MESSAGE value="Added Encryption class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Encryption class" />
+    <MESSAGE value="added String Validator Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added String Validator Class" />
   </component>
 </project>
