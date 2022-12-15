@@ -12,13 +12,12 @@ import static org.junit.Assert.assertTrue;
 
 public class UserDbTest {
 
-    private String username = "Garry";
     private String email = "Zion@gmail.com";
     private String firstName = "Joshua";
     private String lastName = "GGGGG";
     private String password = "1234";
 
-    User user = new User(username, email, firstName, lastName, password);
+    User user = new User(email, firstName, lastName, password);
 
 //
 //    @Test //passed! ✅

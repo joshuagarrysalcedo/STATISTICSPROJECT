@@ -36,7 +36,7 @@ public class DashboardController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        loadPage("/home.fxml");
+        loadPage("/play.fxml");
     }
 
     public void initData(String ID) {

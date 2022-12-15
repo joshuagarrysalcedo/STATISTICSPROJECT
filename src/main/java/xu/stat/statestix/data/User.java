@@ -1,12 +1,14 @@
 package xu.stat.statestix.data;
 
+import org.jetbrains.annotations.NotNull;
 import xu.stat.statestix.database.UserDB;
 import xu.stat.statestix.util.ENCRYPTION;
 
 import java.time.LocalDate;
+import java.util.Comparator;
 
-public class User {
-    private String userName;
+public class User implements Comparable<User>{
+
     private String email;
     private String firstName;
     private String lastName;
@@ -19,8 +21,7 @@ public class User {
 
 
 
-    public User(String userName, String email, String firstName, String lastName, String password) {
-        this.userName = userName;
+    public User(String email, String firstName, String lastName, String password) {
         this.email = email;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -37,14 +38,14 @@ public class User {
         this.rating = 0.0;
         this.password = null;
     }
-    public String getUserName() {
-        return userName;
-    }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public User(String email, double rating) {
+        this.email = email;
+        this.firstName = null;
+        this.lastName = null;
+        this.rating = rating;
+        this.password = null;
     }
-
     public String getEmail() {
         return email;
     }
@@ -113,7 +114,6 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "userName='" + userName + '\'' +
                 ", email='" + email + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
@@ -122,5 +122,17 @@ public class User {
                 ", password='" + password + '\'' +
                 ", hash='" + hash + '\'' +
                 '}';
+    }
+
+    public static Comparator<User> COMPARE_BY_RATING = new Comparator<User>() {
+        @Override
+        public int compare(User o1, User o2) {
+            return Double.compare(o1.getRating(),o2.getRating());
+        }
+    };
+
+    @Override
+    public int compareTo(@NotNull User o) {
+        return Double.compare(this.getRating(), o.getRating());
     }
 }

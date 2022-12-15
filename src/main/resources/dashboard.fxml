@@ -8,69 +8,144 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
 <BorderPane id="borderpane" fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xu.stat.statestix.controllers.DashboardController">
    <left>
-      <VBox prefHeight="767.0" prefWidth="185.0" BorderPane.alignment="CENTER">
+      <VBox prefHeight="778.0" prefWidth="227.0" BorderPane.alignment="CENTER">
          <children>
-            <HBox id="home" fx:id="homeHB" onMouseClicked="#onHomeClick" onMouseEntered="#onMouseIn" onMouseExited="#onMouseOut" prefHeight="100.0" prefWidth="200.0">
+            <HBox id="home" fx:id="homeHB" onMouseClicked="#onHomeClick" onMouseEntered="#onMouseIn" onMouseExited="#onMouseOut" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #D7897E; -fx-background-radius: 50;">
                <children>
-                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="64.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@loginico2.png" />
+                        <Image url="@home.png" />
                      </image>
+                     <HBox.margin>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </HBox.margin>
                   </ImageView>
-                  <Label text="Home" />
+                  <Label text="Home">
+                     <HBox.margin>
+                        <Insets top="30.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="23.0" />
+                     </font></Label>
                </children>
+               <VBox.margin>
+                  <Insets bottom="20.0" top="20.0" />
+               </VBox.margin>
             </HBox>
-            <HBox id="play" fx:id="playHB" layoutX="10.0" layoutY="10.0" onMouseClicked="#onPlayClicked" onMouseEntered="#onMouseIn" onMouseExited="#onMouseOut" prefHeight="100.0" prefWidth="200.0">
+            <HBox id="home" fx:id="playHB" layoutX="10.0" layoutY="30.0" onMouseClicked="#onPlayClicked" onMouseEntered="#onMouseIn" onMouseExited="#onMouseOut" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #D7897E; -fx-background-radius: 50;">
                <children>
-                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="64.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@loginico2.png" />
+                        <Image url="@answericon.png" />
                      </image>
+                     <HBox.margin>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </HBox.margin>
                   </ImageView>
-                  <Label text="Play" />
+                  <Label text="Play">
+                     <HBox.margin>
+                        <Insets top="30.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Label>
                </children>
+               <VBox.margin>
+                  <Insets bottom="20.0" top="20.0" />
+               </VBox.margin>
             </HBox>
-            <HBox id="rankings" fx:id="homeHbox" layoutX="10.0" layoutY="110.0" onMouseClicked="#onRankingsClicked" onMouseEntered="#onMouseIn" onMouseExited="#onMouseOut" prefHeight="100.0" prefWidth="200.0">
+            <HBox id="home" fx:id="homeHbox" layoutX="10.0" layoutY="170.0" onMouseClicked="#onRankingsClicked" onMouseEntered="#onMouseIn" onMouseExited="#onMouseOut" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #D7897E; -fx-background-radius: 50;">
                <children>
-                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="64.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@loginico2.png" />
+                        <Image url="@favpng_calculator-rechenhilfsmittel-android.png" />
                      </image>
+                     <HBox.margin>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </HBox.margin>
                   </ImageView>
-                  <Label text="Rankings" />
+                  <Label text="Ranking">
+                     <HBox.margin>
+                        <Insets top="30.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Label>
                </children>
+               <VBox.margin>
+                  <Insets bottom="20.0" top="20.0" />
+               </VBox.margin>
             </HBox>
-            <HBox id="learn" fx:id="learnHB" layoutX="10.0" layoutY="210.0" onMouseClicked="#onLearnClicked" onMouseEntered="#onMouseIn" onMouseExited="#onMouseOut" prefHeight="100.0" prefWidth="159.0">
+            <HBox id="home" fx:id="learnHB" layoutX="10.0" layoutY="290.0" onMouseClicked="#onLearnClicked" onMouseEntered="#onMouseIn" onMouseExited="#onMouseOut" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #D7897E; -fx-background-radius: 50;">
                <children>
-                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="64.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@loginico2.png" />
+                        <Image url="@favpng_learning-school-length-education-measurement.png" />
                      </image>
+                     <HBox.margin>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </HBox.margin>
                   </ImageView>
-                  <Label text="Learn" />
+                  <Label text="Learn">
+                     <HBox.margin>
+                        <Insets top="30.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Label>
                </children>
+               <VBox.margin>
+                  <Insets bottom="20.0" top="20.0" />
+               </VBox.margin>
             </HBox>
-            <HBox id="stats" fx:id="statsHB" layoutX="10.0" layoutY="310.0" onMouseClicked="#onStatsClicked" onMouseEntered="#onMouseIn" onMouseExited="#onMouseOut" prefHeight="100.0" prefWidth="200.0">
+            <HBox id="home" fx:id="statsHB" layoutX="10.0" layoutY="290.0" onMouseClicked="#onStatsClicked" onMouseEntered="#onMouseIn" onMouseExited="#onMouseOut" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #D7897E; -fx-background-radius: 50;">
                <children>
-                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="64.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@loginico2.png" />
+                        <Image url="@scorecard.png" />
                      </image>
+                     <HBox.margin>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </HBox.margin>
                   </ImageView>
-                  <Label text="Stats" />
+                  <Label text="Stats">
+                     <HBox.margin>
+                        <Insets top="30.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Label>
                </children>
+               <VBox.margin>
+                  <Insets bottom="20.0" top="20.0" />
+               </VBox.margin>
             </HBox>
-            <HBox id="about" fx:id="aboutHbox" layoutX="10.0" layoutY="410.0" onMouseClicked="#onAboutClicked" onMouseEntered="#onMouseIn" onMouseExited="#onMouseOut" prefHeight="100.0" prefWidth="200.0">
+            <HBox id="home" fx:id="aboutHbox" layoutX="10.0" layoutY="590.0" onMouseClicked="#onAboutClicked" onMouseEntered="#onMouseIn" onMouseExited="#onMouseOut" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #D7897E; -fx-background-radius: 50;">
                <children>
-                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="64.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@loginico2.png" />
+                        <Image url="@favpng_pencil-drawing.png" />
                      </image>
+                     <HBox.margin>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </HBox.margin>
                   </ImageView>
-                  <Label text="About" />
+                  <Label text="About">
+                     <HBox.margin>
+                        <Insets top="30.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Label>
                </children>
             </HBox>
          </children>
@@ -83,7 +158,7 @@
          </BorderPane.margin></HBox>
    </top>
    <bottom>
-      <HBox prefHeight="36.0" prefWidth="1100.0" style="-fx-background-color: #1FDF64;" BorderPane.alignment="CENTER" />
+      <HBox prefHeight="0.0" prefWidth="1300.0" style="-fx-background-color: #1FDF64;" BorderPane.alignment="CENTER" />
    </bottom>
    <center>
       <AnchorPane prefHeight="745.0" prefWidth="1044.0" style="-fx-background-color: #171A21;" BorderPane.alignment="CENTER">
