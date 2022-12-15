@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f92256f1-4485-4d4c-b8cb-90896a7de1c4" name="Changes" comment="updated mode">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/RatingList.java" afterDir="false" />
+    <list default="true" id="f92256f1-4485-4d4c-b8cb-90896a7de1c4" name="Changes" comment="updated mode ni">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/StatestixApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/StatestixApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/DashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/RankingsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/RankingsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/database/UserDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/database/UserDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/test/UserDbTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/test/UserDbTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dashboard.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/play.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/play.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/quiz.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/quiz.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/rankings.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/rankings.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/statestixdb.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/statestixdb.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/xu/stat/statestix/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xu/stat/statestix/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/about.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/about.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,14 +31,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubProjectSettings">
-    <option name="branchProtectionPatterns">
-      <list>
-        <option value="master" />
-        <option value="adrian" />
-      </list>
-    </option>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -64,18 +40,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "F:/JOSHUASALCEDO/SUMO/STAT/FinalProject/src/main/resources",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.31186754",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/JOSHUASALCEDO/SUMO/STAT/FinalProject/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.31186754&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\JOSHUASALCEDO\SUMO\STAT\FinalProject\src\main\resources" />
@@ -84,7 +59,7 @@
   <component name="RunManager" selected="Application.StatestixApplication">
     <configuration name="StatestixApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xu.stat.statestix.StatestixApplication" />
-      <module name="statestix" />
+      <module name="STATISTICSPROJECT" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="xu.stat.statestix.*" />
@@ -154,6 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.StatestixApplication" />
+      <item itemvalue="Application.sample" />
+      <item itemvalue="JUnit.PermutationTest" />
+      <item itemvalue="JUnit.MedianTest" />
+      <item itemvalue="JUnit.UserDbTest.testRetrieveData" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.StatestixApplication" />
@@ -299,35 +281,7 @@
       <option name="project" value="LOCAL" />
       <updated>1671048265148</updated>
     </task>
-    <task id="LOCAL-00019" summary="updated mode">
-      <created>1671101456438</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1671101456438</updated>
-    </task>
-    <task id="LOCAL-00020" summary="updated mode">
-      <created>1671101918752</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1671101918752</updated>
-    </task>
-    <task id="LOCAL-00021" summary="updated mode">
-      <created>1671103177156</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1671103177156</updated>
-    </task>
-    <task id="LOCAL-00022" summary="updated mode">
-      <created>1671103371159</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1671103371159</updated>
-    </task>
-    <option name="localTasksCounter" value="23" />
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
