@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f92256f1-4485-4d4c-b8cb-90896a7de1c4" name="Changes" comment="updated mode">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/QuizController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/QuizController.java" afterDir="false" />
-    </list>
+    <list default="true" id="f92256f1-4485-4d4c-b8cb-90896a7de1c4" name="Changes" comment="updated mode" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -296,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671101918752</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="updated mode">
+      <created>1671103177156</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1671103177156</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
