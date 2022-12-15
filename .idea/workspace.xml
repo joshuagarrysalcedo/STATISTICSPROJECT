@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="488d1700-9030-4442-b570-64bd95206a2f" name="Changes" comment="updated mode ni">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/SDeviation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="team" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -50,10 +54,10 @@
       <recent name="F:\JOSHUASALCEDO\SUMO\STAT\FinalProject\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SDeviationTest">
+  <component name="RunManager" selected="Application.StatestixApplication">
     <configuration name="StatestixApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xu.stat.statestix.StatestixApplication" />
-      <module name="statestix" />
+      <module name="STATISTICSPROJECT" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="xu.stat.statestix.*" />
@@ -123,19 +127,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="STATISTICSPROJECT" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="STATISTICSPROJECT" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.StatestixApplication" />
       <item itemvalue="Application.sample" />
@@ -145,8 +136,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SDeviationTest" />
         <item itemvalue="Application.StatestixApplication" />
+        <item itemvalue="JUnit.SDeviationTest" />
         <item itemvalue="Application.sample" />
         <item itemvalue="JUnit.MedianTest" />
         <item itemvalue="JUnit.UserDbTest.testRetrieveData" />
@@ -274,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671038610099</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="updated mode ni">
+      <created>1671048334490</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1671048334490</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,6 +298,10 @@
     <MESSAGE value="updated mode" />
     <MESSAGE value="updated mode ni" />
     <option name="LAST_COMMIT_MESSAGE" value="updated mode ni" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FinalProject$StatestixApplication.ic" NAME="StatestixApplication Coverage Results" MODIFIED="1671020849239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
