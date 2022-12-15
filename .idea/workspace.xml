@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f92256f1-4485-4d4c-b8cb-90896a7de1c4" name="Changes" comment="updated mode">
+    <list default="true" id="f92256f1-4485-4d4c-b8cb-90896a7de1c4" name="Changes" comment="updated mode ni">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/QuizController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/QuizController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/about.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/about.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,14 +30,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubProjectSettings">
-    <option name="branchProtectionPatterns">
-      <list>
-        <option value="master" />
-        <option value="adrian" />
-      </list>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -67,7 +59,7 @@
   <component name="RunManager" selected="Application.StatestixApplication">
     <configuration name="StatestixApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xu.stat.statestix.StatestixApplication" />
-      <module name="statestix" />
+      <module name="STATISTICSPROJECT" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="xu.stat.statestix.*" />
@@ -137,6 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.StatestixApplication" />
+      <item itemvalue="Application.sample" />
+      <item itemvalue="JUnit.PermutationTest" />
+      <item itemvalue="JUnit.MedianTest" />
+      <item itemvalue="JUnit.UserDbTest.testRetrieveData" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.StatestixApplication" />
@@ -282,14 +281,7 @@
       <option name="project" value="LOCAL" />
       <updated>1671048265148</updated>
     </task>
-    <task id="LOCAL-00019" summary="updated mode">
-      <created>1671101456438</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1671101456438</updated>
-    </task>
-    <option name="localTasksCounter" value="20" />
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
