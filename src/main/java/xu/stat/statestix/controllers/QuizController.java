@@ -225,7 +225,7 @@ public class QuizController implements Initializable {
             totalAttempt++;
         }
         map.get(question.getType()).setTotalAttempt(totalAttempt);
-        map.get(question.getType()).setTotalScore(totalAttempt);
+        map.get(question.getType()).setTotalScore(totalScore);
         System.out.println("Score update:");
         System.out.println(question.getType() + "\"");
         System.out.println("Total Attempt: "  + totalAttempt);
