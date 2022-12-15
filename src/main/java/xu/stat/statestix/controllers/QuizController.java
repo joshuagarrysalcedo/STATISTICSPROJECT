@@ -23,6 +23,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.ResourceBundle;
 
 public class QuizController implements Initializable {
@@ -231,5 +232,9 @@ public class QuizController implements Initializable {
         System.out.println("Total Score: "  + totalScore);
         System.out.println(correct);
 
+
+        for(Map.Entry<Type, StatTracker> entry : map.entrySet()){
+            System.out.printf("Type: %s Total Attempt: %d Total Score %d\n", entry.getKey(), entry.getValue().getTotalAttempt(), entry.getValue().getTotalScore());
+        }
     }
 }
