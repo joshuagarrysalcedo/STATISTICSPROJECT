@@ -19,8 +19,11 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import xu.stat.statestix.data.Statistics.*;
+import xu.stat.statestix.data.Statistics.probability.Probability;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.EventListener;
 
 public class PlayController {
@@ -71,19 +74,48 @@ public class PlayController {
 
     @FXML
     void onStartButtonClicked(MouseEvent event) throws IOException {
+        ArrayList<Statistics> stat = new ArrayList<>();
         System.out.println("startButton Clicked");
+        if(modeCh.isSelected()){stat.add(new Mode());}
+        if(meanChk.isSelected()){stat.add(new Mean());}
+        if(medfianCk.isSelected()){stat.add(new Median());}
+        if(probChk.isSelected()){stat.add(new Probability());}
+        if(rangeChk.isSelected()){stat.add(new Range());}
+        if(sdChk.isSelected()){stat.add(new SDeviation());}
+        String gameMode = modeCB.getValue().toString();
+        int quantinty = 0;
+        int time = 0;
 
-        System.out.println("Button clicked!");
-        FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("/quiz.fxml"));
-        Parent menuParent = loader.load();
-        Scene scene = new Scene(menuParent);
-        QuizController controller = loader.getController();
-        controller.initData("1234");
-        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-        window.setScene(scene);
-        window.show();
-    }
+
+            if (quantityCB.getValue() != null) {
+                quantinty = quantityCB.getValue();
+            }
+            if (timeCB.getValue() != null) {
+                time = timeCB.getValue();
+            }
+
+
+            Statistics[] arr = new Statistics[stat.size()];
+            for(int i = 0; i < arr.length; i++) {
+                arr[i] = stat.get(i);
+            }
+
+            System.out.println("Button clicked!");
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(getClass().getResource("/quiz.fxml"));
+            Parent menuParent = loader.load();
+            Scene scene = new Scene(menuParent);
+            QuizController controller = loader.getController();
+
+            controller.initData("2022-12-0001", arr, gameMode, quantinty, time);
+
+            Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+            window.setScene(scene);
+            window.show();
+        }
+
+
+
 
     @FXML
     private void initialize() {
@@ -109,6 +141,8 @@ public class PlayController {
         modeCB.setItems(modes);
         timeCB.setItems(time);
         quantityCB.setItems(quantity);
+        modeCB.setVisibleRowCount(3);
+        modeCB.setValue("Classic");
 
         modeCB.valueProperty().addListener(new ChangeListener<String>() {
             @Override
@@ -122,7 +156,7 @@ public class PlayController {
                     quantityCB.setDisable(true);
                 }
                 if(modeCB.getValue() == "Classic") {
-                    timeCB.setDisable(true);
+                    timeCB.setDisable(false);
                     quantityCB.setDisable(false);
                 }
             }

@@ -1,41 +1,21 @@
 package xu.stat.statestix.data.Statistics;
 
-
-
-import org.apache.commons.math3.stat.StatUtils;
-import xu.stat.statestix.data.Question;
-import xu.stat.statestix.util.MathUTIL;
+import xu.stat.statestix.data.Statistics.probability.Type;
 
 public class Mean extends Statistics{
 
-    private double[] set;
-    private double mean;
     public Mean() {
-        super();
-        setSubject("Mean");
+        setType(Type.MEAN);
         setDescription("A mean in maths is the average of a data set");
-    }
 
-    public double calculateMean(double[] set){
-        double mean = StatUtils.mean(set);
-        return Double.parseDouble(MathUTIL.df.format(mean));
-    }
-
-    public double[] getSet() {
-        return set;
-    }
-
-    public void setSet(double[] set) {
-        this.set = set;
-    }
-
-    public double getMean() {
-        return mean;
-    }
-
-    public void setMean(double mean) {
-        this.mean = mean;
     }
 
 
+    @Override
+    public double result(double[] array) {
+       double result = org.apache.commons.math3.stat.StatUtils.mean(array);
+        System.out.println("result in Mean: " + result);
+       setResult(result);
+       return result;
+    }
 }

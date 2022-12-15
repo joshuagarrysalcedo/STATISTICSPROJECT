@@ -5,12 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f92256f1-4485-4d4c-b8cb-90896a7de1c4" name="Changes" comment="updated mode">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/checkbox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/nextPage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/scorecard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/xMark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_14_2022_9_37_PM_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_14_2022_9_37_PM_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_14_2022_9_37_PM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/StatTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Answerable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/QuestionGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Questionnaire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/probability/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/StatLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Stylebutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/favpng_book-download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/favpng_calculator-rechenhilfsmittel-android.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/favpng_learning-school-length-education-measurement.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/favpng_pencil-drawing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/favpng_protractor-compass-clip-art.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/PlayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/PlayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/QuizController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/controllers/QuizController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Mean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Mean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Median.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Median.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Mode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Mode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Permutation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Range.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Range.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/SDeviation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/SDeviation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/Statistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/probability/MeanMedianModeQuestions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/probability/Probability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/probability/Probability.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/data/Statistics/probability/ProbabilityQuestions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/test/MedianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/test/MedianTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/test/PermutationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/test/RangeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/test/RangeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/test/SDeviationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/test/SDeviationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/test/sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xu/stat/statestix/test/sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/learn.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/learn.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/play.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/play.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/quiz.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/quiz.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/style.css" afterDir="false" />
     </list>
@@ -22,9 +52,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -145,17 +176,17 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.StatestixApplication" />
+        <item itemvalue="Application.sample" />
         <item itemvalue="JUnit.UserDbTest.testRetrieveData" />
         <item itemvalue="JUnit.PermutationTest" />
         <item itemvalue="JUnit.MedianTest" />
-        <item itemvalue="Application.sample" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="488d1700-9030-4442-b570-64bd95206a2f" name="Changes" comment="" />
+      <changelist id="f92256f1-4485-4d4c-b8cb-90896a7de1c4" name="Changes" comment="" />
       <created>1670992457193</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
