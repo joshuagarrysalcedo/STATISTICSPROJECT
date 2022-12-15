@@ -17,7 +17,7 @@ public class DashboardController implements Initializable {
     private HBox aboutHbox;
 
     @FXML
-    private BorderPane borderPane;
+    private  BorderPane borderPane;
 
     @FXML
     private HBox homeHB;
