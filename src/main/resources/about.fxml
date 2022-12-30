@@ -2,9 +2,57 @@
 
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="dashboardPane" prefHeight="724.0" prefWidth="856.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xu.stat.statestix.controllers.AboutController">
+<AnchorPane fx:id="dashboardPane" prefHeight="724.0" prefWidth="856.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xu.stat.statestix.controllers.AboutController">
    <children>
-      <Label layoutX="255.0" layoutY="179.0" text="About" />
+      <Label layoutX="280.0" layoutY="50.0" text="About the Application" textFill="#c6b15d">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="27.0" />
+         </font></Label>
+      <Text layoutX="188.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="An application intended to hone Mathematical skills specifically" />
+      <Text layoutX="529.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Statistics for college students." />
+      <Text layoutX="188.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Math drills have long been a component" />
+      <Text layoutX="411.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="of a teacher’s arsenal for developing math fluency." />
+      <Text layoutX="188.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The most typical drill and practice tools" />
+      <Text layoutX="403.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="in the classroom are math window cards," />
+      <Text layoutX="618.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="worksheets," />
+      <Text layoutX="188.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="flash cards, and oral recitation." />
+      <Text layoutX="356.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="There are a minimal number of Math drillst" />
+      <Text layoutX="586.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="involving Statistics, and " />
+      <Text layoutX="188.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="this might be an effective way of learning. Math exercises are designed to improve students" />
+      <Text layoutX="188.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="accuracy and speed in answering problems. The application would serve purpose for those in " />
+      <Text layoutX="188.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="need of a quick review in Statistics." />
+      <Text fill="#a6ab62" layoutX="289.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Statestix App Contributors">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="338.0" layoutY="381.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Salcedo, Joshua" wrappingWidth="183.861328125">
+         <font>
+            <Font name="Comic Sans MS Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="368.0" layoutY="410.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Baban, Scott">
+         <font>
+            <Font name="Comic Sans MS Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="373.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Neri, Nikko">
+         <font>
+            <Font name="Comic Sans MS Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="342.0" layoutY="472.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sabunod, Adrian">
+         <font>
+            <Font name="Comic Sans MS Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="341.0" layoutY="512.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alombro, Japhet">
+         <font>
+            <Font name="Comic Sans MS Bold" size="20.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>

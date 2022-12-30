@@ -1,11 +1,17 @@
 package xu.stat.statestix.database;
 
+import javafx.fxml.Initializable;
 import xu.stat.statestix.data.User;
 import xu.stat.statestix.util.ENCRYPTION;
 
+import java.net.URL;
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.ResourceBundle;
 
-public class UserDB {
+public class UserDB implements Initializable {
+
+    private UserDB(){}
     private static final String directory = System.getProperty("user.dir");
     private static final String jdbcURL = String.format("jdbc:sqlite:/%s/src/main/resources/statestixdb.db", directory);
     private static Connection connection = null;
@@ -194,5 +200,34 @@ public class UserDB {
             System.out.println("user does not exists!");
         }
         return null;
+    }
+
+    public static ArrayList<User>  retrieveData() {
+        String fname = "";
+        String lname = "";
+        String name = "";
+        double rating= 0.0;
+        ArrayList<User> user = new ArrayList<>();
+            try{
+                connection = getConnection();
+                String sql = String.format("SELECT fname, lname, rating from users");
+                PreparedStatement statement = connection.prepareStatement(sql);
+
+                ResultSet rs = statement.executeQuery();
+                while(rs.next()) {
+                    fname  = rs.getString(1);
+                    lname = rs.getString(2);
+                    rating = rs.getDouble(3);
+                    user.add(new User(fname + " " + lname, rating));
+                }
+            } catch (SQLException e) {
+                throw new RuntimeException(e);
+            }
+            return user;
+    }
+
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+
     }
 }

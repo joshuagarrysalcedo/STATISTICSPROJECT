@@ -17,7 +17,7 @@ public class DashboardController implements Initializable {
     private HBox aboutHbox;
 
     @FXML
-    private BorderPane borderPane;
+    private  BorderPane borderPane;
 
     @FXML
     private HBox homeHB;
@@ -36,7 +36,7 @@ public class DashboardController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-
+        loadPage("/play.fxml");
     }
 
     public void initData(String ID) {
@@ -86,6 +86,13 @@ public class DashboardController implements Initializable {
 
     }
 
+    public BorderPane getBorderPane() {
+        return borderPane;
+    }
+
+    public void setBorderPane(BorderPane borderPane) {
+        this.borderPane = borderPane;
+    }
 
     @FXML
     void onMouseIn(MouseEvent event) {

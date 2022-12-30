@@ -1,17 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<VBox fx:id="pane" alignment="CENTER" prefHeight="700.0" prefWidth="600.0" spacing="20.0" stylesheets="@../../../style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xu.stat.statestix.controllers.LoginController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-    </padding>
-
-    <Label fx:id="welcomeText" />
-    <Button onAction="#onHelloButtonClick" text="Hello!" />
-   <Hyperlink onMouseClicked="#onLoginClick" text="Login" />
-</VBox>
+<SplitPane fx:id="dashboardPane" dividerPositions="0.39482470784641066" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" stylesheets="@../../../style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xu.stat.statestix.controllers.LoginController">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="698.0" prefWidth="420.0">
+         <children>
+            <TextField fx:id="emailReg" layoutX="143.0" layoutY="14.0" />
+            <Label layoutX="219.0" layoutY="61.0" text="Email">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Separator layoutX="45.0" layoutY="97.0" prefHeight="0.0" prefWidth="383.0" />
+            <TextField fx:id="fnameReg" layoutX="143.0" layoutY="112.0" />
+            <Label layoutX="199.0" layoutY="160.0" text="First Name">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Separator layoutX="45.0" layoutY="195.0" prefHeight="0.0" prefWidth="383.0" />
+            <TextField fx:id="lastNameReg" layoutX="143.0" layoutY="216.0" />
+            <Label layoutX="199.0" layoutY="264.0" text="Last name">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Separator layoutX="45.0" layoutY="299.0" prefHeight="0.0" prefWidth="383.0" />
+            <Label layoutX="202.0" layoutY="382.0" text="Password">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Separator layoutX="48.0" layoutY="417.0" prefHeight="0.0" prefWidth="383.0" />
+            <PasswordField fx:id="passwordReg" layoutX="143.0" layoutY="349.0" />
+            <Button fx:id="regButton" layoutX="204.0" layoutY="474.0" mnemonicParsing="false" onMouseClicked="#clickRegister" style="-fx-background-radius: 50;" text="Register" />
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="698.0" prefWidth="546.0">
+         <children>
+            <TextField fx:id="emailLog" layoutX="267.0" layoutY="198.0" />
+            <Label layoutX="343.0" layoutY="245.0" text="Email">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Separator layoutX="169.0" layoutY="281.0" prefHeight="0.0" prefWidth="383.0" />
+            <Label layoutX="328.0" layoutY="349.0" text="Password">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Separator layoutX="172.0" layoutY="389.0" prefHeight="0.0" prefWidth="383.0" />
+            <PasswordField fx:id="passLog" layoutX="271.0" layoutY="318.0" />
+            <Button fx:id="loginButton" layoutX="337.0" layoutY="463.0" mnemonicParsing="false" onMouseClicked="#loginButton" style="-fx-background-radius: 50;" text="login" />
+            <ImageView fitHeight="151.0" fitWidth="187.0" layoutX="285.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../logo.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+  </items>
+</SplitPane>

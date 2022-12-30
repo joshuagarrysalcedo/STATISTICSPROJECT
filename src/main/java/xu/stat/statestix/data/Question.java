@@ -1,58 +1,51 @@
 package xu.stat.statestix.data;
 
-import java.util.Arrays;
+import xu.stat.statestix.data.Statistics.probability.Type;
+
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Question {
     private String question;
-    private HashMap<Character, String> choices;
+    private ArrayList<String> list;
     private String answer;
+    private Type type;
 
-    public Question(String question,  String answer, HashMap<Character, String> choices) {
+
+
+    public Question(String question, String answer, ArrayList<String> list, Type type) {
         this.question = question;
-        this.choices = choices;
+        this.list = list;
         this.answer = answer;
+        this.type = type;
     }
 
-    public Question(String question) {
-        this.question = question;
-    }
 
-    public Question(String question, String answer) {
-        this.question = question;
-        this.answer = answer;
-    }
 
     public String getQuestion() {
         return question;
     }
 
-    public void setQuestion(String question) {
-        this.question = question;
-    }
 
-    public HashMap<Character, String> getChoices() {
-        return choices;
-    }
-
-    public void setChoices(double answer) {
-
+    public ArrayList<String> getList() {
+        return list;
     }
 
     public String getAnswer() {
         return answer;
     }
 
-    public void setAnswer(String answer) {
-        this.answer = answer;
-    }
 
     @Override
     public String toString() {
         return "Question{" +
                 "question='" + question + '\'' +
-                ", choices=" + choices +
+                ", choices=" + list +
                 ", answer='" + answer + '\'' +
                 '}';
+    }
+
+    public Type getType() {
+        return type;
     }
 }

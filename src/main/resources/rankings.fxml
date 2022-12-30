@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
 
 <AnchorPane fx:id="dashboardPane" prefHeight="724.0" prefWidth="856.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xu.stat.statestix.controllers.RankingsController">
    <children>
-      <Label layoutX="286.0" layoutY="89.0" text="RANKINGS" />
+      <TextArea layoutX="225.0" layoutY="99.0" prefHeight="435.0" prefWidth="406.0" text="1. swaswa@gmail.com                                                   66.2&#10;2. juantaklob@gmail.com                                               50.0&#10;3. Zion@gmail.com                                                         33.5&#10;4. NikkoGwapo@gmail.com                                            30.0&#10;5. dfasdf@gmail.com                                                      20.0" />
+      <Label layoutX="386.0" layoutY="68.0" prefHeight="21.0" prefWidth="90.0" text="Rankings" />
    </children>
 </AnchorPane>

@@ -1,30 +1,38 @@
 package xu.stat.statestix.test;
 
-import xu.stat.statestix.data.Question;
-import xu.stat.statestix.data.Statistics.probability.Coin;
-import xu.stat.statestix.data.Statistics.probability.ProbabilityQuestions;
-
-import java.math.BigDecimal;
-import java.util.ArrayList;
+import xu.stat.statestix.data.Statistics.*;
+import xu.stat.statestix.data.Statistics.probability.Probability;
 
 public class sample {
     public static void main(String[] args) {
-        System.out.println(Coin.map.get(0));
+//        System.out.println(Coin.map.get(0));
+//
+//        ProbabilityQuestions questions = new ProbabilityQuestions();
+//        ArrayList<Question> list = questions.generateQuestions(20);
+//
+//        for(Question i : list) {
+//            System.out.println(i);
+//        }
+//
+//        ProbabilityQuestions p = new ProbabilityQuestions();
+//        System.out.println(p.getAnswerInPercent(.00000000000323));
+//
+//        BigDecimal decimal = new BigDecimal("100");
+//        System.out.println(decimal);
+//        BigDecimal percentage = decimal.multiply(new BigDecimal(.00000000000323/100.0));
+//        System.out.println(percentage);
 
-        ProbabilityQuestions questions = new ProbabilityQuestions();
-        ArrayList<Question> list = questions.generateQuestions(20);
+//        Mode mode = new Mode();
+//        Mean mean = new Mean();
+//        System.out.println(mode.getClass().getName());
+//        System.out.println(mean.getClass().getName());
 
-        for(Question i : list) {
-            System.out.println(i);
+
+        Statistics[] stat = {new Mode(), new Median(), new Mean(), new SDeviation(), new Range(), new Probability()};
+
+        for(int i = 0; i < 100; i++) {
+            System.out.println(QuestionGenerator.generateQuestion(stat));
         }
-
-        ProbabilityQuestions p = new ProbabilityQuestions();
-        System.out.println(p.getAnswerInPercent(.00000000000323));
-
-        BigDecimal decimal = new BigDecimal("100");
-        System.out.println(decimal);
-        BigDecimal percentage = decimal.multiply(new BigDecimal(.00000000000323/100.0));
-        System.out.println(percentage);
 
     }
 }
